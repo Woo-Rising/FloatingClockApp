@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">悬浮时钟</string>
+    <string name="accessibility_description">悬浮时钟无障碍服务，用于实现跨应用自动点击功能。请您放心授权，本服务仅用于模拟点击目标按钮。</string>
+</resources>

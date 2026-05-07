@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#0a0f19"
+    android:padding="24dp">
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="⏱️"
+        android:textSize="72sp" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="高精度悬浮时钟"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="正在初始化..."
+        android:textColor="#99FFFFFF"
+        android:textSize="14sp"
+        android:layout_marginTop="8dp" />
+    
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="启动悬浮窗"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#3366AA"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:padding="12dp" />
+    
+    <Button
+        android:id="@+id/accessibilityBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="⚙️ 开启无障碍服务"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#E74C3C"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:padding="12dp" />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📌 使用说明：\\n\\n1. 授予悬浮窗权限\\n2. 开启无障碍服务\\n3. 在悬浮窗中输入目标按钮文本\\n4. 设置定时时间\\n5. 等待自动点击"
+        android:textColor="#66FFFFFF"
+        android:textSize="12sp"
+        android:layout_marginTop="24dp"
+        android:lineSpacingExtra="4dp" />
+    
+</LinearLayout>
